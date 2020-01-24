@@ -20,7 +20,7 @@ int SL06Class::delay(uint32_t time_ms)
 return 1;
 }
 
-namespace xSL06
+namespace SL06
 {
 static SL06Class *ptr = new SL06Class;
     
